@@ -5,7 +5,7 @@ void sliceString(char arr[],int m,int n);
 
 int main(){
     char arr[50]= "Numan";
-    sliceString(arr, 2, 4);
+    sliceString(arr, 2, 7);
     printf("%s", arr);
     return 0;
 }
