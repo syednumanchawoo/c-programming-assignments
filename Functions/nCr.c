@@ -14,7 +14,7 @@ int main(){
     printf("Please enter r: ");
     scanf("%d", &r);
 
-    if (n<0 | r<0 | n<r){
+    if (n<0 || r<0 || n<r){
         printf("Invalid Domain\n");
         return 0;
     }
